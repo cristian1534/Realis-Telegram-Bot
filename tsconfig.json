@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types" // Asegúrate de que tu directorio de tipos esté incluido
+    ],
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "baseUrl": ".",                                      /* Specify the base directory to resolve non-relative module names. */
+    "paths": {
+      "*": ["src/*"]
+    },                                     
+    "types": ["node", "jest"],     /* Specify type package names to be included without being referenced in a source file. */
+    "resolveJsonModule": true,                           /* Enable importing .json files. */
+
+    /* Emit */
+    "outDir": "./build",                                 /* Specify an output folder for all emitted files. */
+
+    /* Interop Constraints */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}

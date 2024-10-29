@@ -1,0 +1,40 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Challenge for Realis Company.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.ts",
+    "test": "jest --detectOpenHandles --forceExit --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian1534/Realis-Telegram-Bot.git"
+  },
+  "author": "Cristian Machuca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristian1534/Realis-Telegram-Bot/issues"
+  },
+  "homepage": "https://github.com/cristian1534/Realis-Telegram-Bot#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/supertest": "^6.0.2",
+    "nodemon": "^3.1.7"
+  }
+}
