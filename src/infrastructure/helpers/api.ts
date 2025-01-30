@@ -35,7 +35,7 @@ export const handleMessage = (messageObject: IMessage) => {
       github:
         "I will share with you some of my latest projects on coding here: https://github.com/cristian1534",
       resume:
-        "Download my Resume here: https://drive.google.com/file/d/1gbU_BaCaZze_kpSY4jtvobPbGFdPFIm2/view?usp=drive_link",
+        "Download my Resume here: https://drive.google.com/file/d/1BuVL1kdui2l1qDzvGfB6rC0eJNak8OKk/view?usp=sharing",
       email:
         "I am looking forward to get some news about you. Please, feel free to contact me for any concern to my email: cmachuca32@gmail.com",
     };
