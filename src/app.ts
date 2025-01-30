@@ -20,7 +20,7 @@ app.get("/metrics", async (req, res) => {
 
 app.use(express.json());
 app.use(cors());
-app.use("/", messagesRouter);
+app.use("/webhook", messagesRouter);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
